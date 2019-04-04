@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  padding: 10px;
+  background: linear-gradient(-45deg,blue,gray,navy);
+  color: #d1e1fc;
+  text-shadow: 2px 2px green;
+  font-size: 1.1em;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  text-align:center;
+}
+
+.replies {
+  margin-left: 50px;
+}
+
+.reply {
+  border: 1px dotted black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.4em;
+
+}
+
+a {
+color: #d1e1fc;
+text-shadow: 2px 2px green;
+text-decoration: none;
+}
+
+a:hover{
+color: pink;
+}
